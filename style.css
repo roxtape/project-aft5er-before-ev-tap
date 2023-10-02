@@ -1,0 +1,118 @@
+.img{
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+    position: relative;
+}
+.img::before{
+    background-size: cover;
+}
+.img1::before{
+    content: 'JAVASCRIPT QRUPUNDAN CSS QRUPUNA DUSEN';
+    position: absolute;
+    margin-top: 70px;
+    scale: 0;
+    text-decoration: underline;
+    width: 221px;
+    color: white;
+    height: 221px;
+    border-radius: 50%;
+    transition: .8s;
+    margin-left: -91px;
+    margin-top: -0px;
+    background-image: url(ramo.jpg);
+}
+.img1:hover::before{
+    scale: 1;
+}
+.img2::before{
+    content: 'Avtoxuliqan';
+    position: absolute;
+    margin-top: 70px;
+    scale: 0;
+    text-decoration: underline;
+    width: 221px;
+    height: 221px;
+    border-radius: 50%;
+    transition: .8s;
+    margin-left: -75px;
+    margin-top: -0px;
+    background-image: url(elmeddin.jpg);
+}
+.img2:hover::before{
+    scale: 1;
+}
+.img3::before{
+    content: 'Leyla';
+    position: absolute;
+    margin-top: 70px;
+    scale: 0;
+    text-decoration: underline;
+    width: 221px;
+    height: 221px;
+    border-radius: 50%;
+    transition: .8s;
+    margin-left: -89px;
+    margin-top: -0px;
+    background-image: url(leyla.jpg);
+}
+.img3:hover::before{
+    scale: 1;
+}
+.img4::before{
+    content: 'Iphone isledir';
+    position: absolute;
+    margin-top: 70px;
+    scale: 0;
+    text-decoration: underline;
+    width: 221px;
+    height: 221px;
+    border-radius: 50%;
+    transition: .8s;
+    margin-left: -90px;
+    margin-top: -0px;
+    background-image: url(anar.jpg);
+}
+.img4:hover::before{
+    scale: 1;
+}
+.img5::before{
+    content: 'Davud';
+    position: absolute;
+    margin-top: 70px;
+    scale: 0;
+    text-decoration: underline;
+    width: 221px;
+    height: 221px;
+    border-radius: 50%;
+    transition: .8s;
+    margin-left: -86px;
+    margin-top: -0px;
+    background-image: url(davud.jpg);
+}
+.img5:hover::before{
+    scale: 1;
+}
+.img6::before{
+    content: 'Hemid';
+    position: absolute;
+    margin-top: 70px;
+    scale: 0;
+    text-decoration: underline;
+    width: 221px;
+    height: 221px;
+    border-radius: 50%;
+    transition: .8s;
+    margin-left: -88px;
+    margin-top: -0px;
+    background-image: url(hemid.jpg);
+}
+.img6:hover::before{
+    scale: 1;
+}
